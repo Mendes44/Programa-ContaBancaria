@@ -72,6 +72,6 @@ public class Account {
 	@Override
 	public String toString() {
 		return "NOVO SALDO: "
-				+ saldo;
+				+ String.format("R$ %.2f", saldo);
 	}
 }
